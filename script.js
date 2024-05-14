@@ -1,8 +1,7 @@
-function printMessage() {
-    console.log("Conexão feita com sucesso!");
+function printMessage(message) {
+    console.log(message);
 }
 
-
-printMessage();
-printMessage();
-printMessage();
+printMessage("Conexão feita com sucesso! Mensagem 1");
+printMessage("Conexão feita com sucesso! Mensagem 2");
+printMessage("Conexão feita com sucesso! Mensagem 3");
